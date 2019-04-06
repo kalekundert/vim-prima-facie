@@ -26,7 +26,7 @@ Configuration
 -------------
 At the moment, *Prima facie* is not configurable.  It has a fixed list of 
 phrases that it recognizes, and it is enabled only for text, markdown, and 
-restructured text files.  The simplest to change any of these things is to edit 
+restructured text files.  The simplest way to change any of these things is to edit 
 the source code.  To add new phrases, look at `autoload/primafacie.vim` and it 
 should be clear what to do.  To add new files types, make a copy of any of the 
 files in `syntax/` (they're all the same) and name it with the filetype you 
