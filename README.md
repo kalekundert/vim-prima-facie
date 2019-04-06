@@ -8,6 +8,15 @@ Installation
 *Prima facie* can be installed using any of the plugin management tools 
 available for vim:
 
+### **Vim 8 native packaging**
+
+Clone this repository into your ``.vim/pack/*/start/`` directory:
+
+    cd ~/.vim/pack/plugin/start
+    git clone git://github.com/kalekundert/vim-prima-facie.git
+
+
+
 ### [pathogen](https://github.com/tpope/vim-pathogen)
 
 Clone this repository into your ``.vim/bundle`` directory:
