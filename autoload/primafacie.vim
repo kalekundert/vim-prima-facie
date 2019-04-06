@@ -27,8 +27,8 @@ function! primafacie#AddLatinPhrases() abort
   syntax match primaLatin "[pP]er[ \n]se" contains=@NoSpell
   syntax match primaLatin "[pP]rima[ \n]facie" contains=@NoSpell
   syntax match primaLatin "[pP]ro[ \n]rata" contains=@NoSpell
-  syntax match primaLatin "[qQ]uid[ \n]pro quo" contains=@NoSpell
-  syntax match primaLatin "[sS]ine[ \n]qua non" contains=@NoSpell
+  syntax match primaLatin "[qQ]uid[ \n]pro[ \n]quo" contains=@NoSpell
+  syntax match primaLatin "[sS]ine[ \n]qua[ \n]non" contains=@NoSpell
   syntax match primaLatin "[vV]ice[ \n]versa" contains=@NoSpell
 
   " Bacterial species
