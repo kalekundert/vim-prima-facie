@@ -1,4 +1,4 @@
-*Prima Facie*: Automatically italicize latin phrases
+*Prima Facie:* Automatically italicize latin phrases
 ====================================================
 *Prima facie* is a syntax highlighting vim plugin that causes latin phrases to 
 be italicized in text files, as they would be in properly formatted documents.  This doesn't really serve any purpose other than to make the files nicer to read.
@@ -7,6 +7,15 @@ Installation
 ------------
 *Prima facie* can be installed using any of the plugin management tools 
 available for vim:
+
+### **Vim 8 native packaging**
+
+Clone this repository into your ``.vim/pack/*/start/`` directory:
+
+    cd ~/.vim/pack/plugin/start
+    git clone git://github.com/kalekundert/vim-prima-facie.git
+
+
 
 ### [pathogen](https://github.com/tpope/vim-pathogen)
 
